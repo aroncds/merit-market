@@ -44,7 +44,7 @@
           <ul class="nav navbar-nav">
             <li>
               <a href="{% url 'dashboard' %}">
-                Welcome {{user.username}} - You have {% include 'core/_heart_badge.html' with qtty=user.customer.weekly_hearts %} hearts
+                Welcome {{user.username}} - You have {% include 'core/_heart_badge.html' with qtty=user.customer.hearts %} hearts
               </a>
             </li>
           </ul>
