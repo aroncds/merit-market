@@ -1,0 +1,6 @@
+{% block subject %}Merit Market - Congratulations!{% endblock %}
+
+{% block plain %}
+<p>Congratulations</hp>
+<p>You received {{ transaction.qtty }} hearts of {{ transaction.giver.user.get_full_name }}</p> 
+{% endblock %}
